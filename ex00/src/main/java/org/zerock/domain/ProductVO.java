@@ -23,7 +23,7 @@ public class ProductVO {
 
 	@Override
 	public String toString() {
-		return "ProductVO [name=" +name + ", price =" + price + "]";
+		return "ProductVO [nameis=" +name + ", price =" + price + "]";
 				
 	}
 	

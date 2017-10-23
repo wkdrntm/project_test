@@ -7,6 +7,7 @@ public class MemberVO {
 	private String email;
 	private String regdate;
 	private String updatedate;
+	private String Test;
 
 	public String getUserid() {
 		return userid;
@@ -56,4 +57,11 @@ public class MemberVO {
 		this.updatedate = updatedate;
 	}
 
+	public String getTest() {
+		return updatedate;
+	}
+
+	public void setTest(String updatedate) {
+		this.updatedate = updatedate;
+	}
 }
